@@ -1,0 +1,1 @@
+export default () => <h1>How to make *le fries</h1>
