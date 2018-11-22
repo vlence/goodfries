@@ -1,7 +1,19 @@
 {
-  "name": "root",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^3.4.3"
-  }
+  "name": "goodfries",
+  "version": "1.0.0",
+  "description": "A site about making good French Fries.",
+  "main": "pages/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlence/goodfries.git"
+  },
+  "author": "Victor Basumatary <victor@intown-solutions.com> (https://about.me/vlence)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlence/goodfries/issues"
+  },
+  "homepage": "https://github.com/vlence/goodfries#readme"
 }
