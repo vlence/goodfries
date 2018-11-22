@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -26,11 +28,12 @@
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "@storybook/react": "^4.0.8",
+    "@babel/core": "^7.1.6",
     "@storybook/addon-actions": "^4.0.8",
     "@storybook/addon-links": "^4.0.8",
     "@storybook/addons": "^4.0.8",
-    "@babel/core": "^7.1.6",
-    "babel-loader": "^8.0.4"
+    "@storybook/react": "^4.0.8",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0"
   }
 }
