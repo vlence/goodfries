@@ -1,7 +1,49 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "goodfries",
+  "version": "1.0.0",
+  "description": "A site about making good French Fries.",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlence/goodfries.git"
+  },
+  "author": "Victor Basumatary <victor@intown-solutions.com> (https://about.me/vlence)",
+  "contributors": [
+    "Desmond Rymbai",
+    "Wantei Warjri",
+    "Aldon Mylliem"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlence/goodfries/issues"
+  },
+  "homepage": "https://github.com/vlence/goodfries#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-typography": "^0.16.13",
+    "styled-components": "^4.1.1",
+    "typography": "^0.16.17"
+  },
   "devDependencies": {
-    "lerna": "^3.4.3"
+    "@babel/core": "^7.1.6",
+    "@storybook/addon-actions": "^4.0.8",
+    "@storybook/addon-links": "^4.0.8",
+    "@storybook/addons": "^4.0.8",
+    "@storybook/react": "^4.0.8",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.8.0",
+    "jest": "^23.6.0"
   }
 }
