@@ -5,6 +5,7 @@ import Footer from '../footer';
 import MaxWidth from '../max-width';
 import GlobalStyles from '../global-styles';
 import Section from '../section';
+import SectionDivider from '../section-divider';
 
 const Wrapper = styled.div``;
 
@@ -12,9 +13,15 @@ const Layout = ({children}) => (
   <Wrapper>
     <MaxWidth>
       <Header />
+
       <Section>
         <main>{children}</main>
       </Section>
+
+      <Section>
+        <SectionDivider />
+      </Section>
+
       <Footer />
     </MaxWidth>
 
