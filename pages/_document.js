@@ -21,6 +21,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta name="viewport" content="width=device-width,initial-scale=1.0" />
           <meta name="description" content="French Fries. They better be good..." />
+          <link rel="icon" href="/static/images/favicon.png" />
 
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
