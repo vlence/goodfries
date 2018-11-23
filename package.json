@@ -17,6 +17,11 @@
     "url": "git+https://github.com/vlence/goodfries.git"
   },
   "author": "Victor Basumatary <victor@intown-solutions.com> (https://about.me/vlence)",
+  "contributors": [
+    "Desmond Rymbai",
+    "Wantei Warjri",
+    "Aldon Mylliem"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vlence/goodfries/issues"
