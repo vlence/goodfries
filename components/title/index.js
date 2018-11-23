@@ -13,6 +13,6 @@ const H1 = styled.h1`
   `}
 `;
 
-const Title = () => <H1>Good Fries 🍟</H1>;
+const Title = () => <H1>🍟 Good Fries</H1>;
 
 export default Title;
