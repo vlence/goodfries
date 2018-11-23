@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import Section from '../components/section'
 import Page from '../components/page';
 import Blockquote from '../components/blockquote';
 import LinkBlank from '../components/link-blank';
@@ -14,11 +15,13 @@ export default () => (
       <title>{pageTitle('Instructions')}</title>
     </Head>
 
-    <Blockquote cite="Sir Isaac Newton">
-      <Lead>
-        Fries. No discussion.
-      </Lead>
-    </Blockquote>
+    <Section>
+      <Blockquote cite="Sir Isaac Newton">
+        <Lead>
+          Fries. No discussion.
+        </Lead>
+      </Blockquote>
+    </Section>
 
     <h1>Instructions</h1>
 

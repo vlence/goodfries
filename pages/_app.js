@@ -1,6 +1,8 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import Layout from '../components/layout';
+import {ThemeProvider} from 'styled-components';
+import theme from '../lib/theme';
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
@@ -18,9 +20,11 @@ export default class MyApp extends App {
 
     return (
       <Container>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <ThemeProvider theme={theme}>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </ThemeProvider>
       </Container>
     );
   }

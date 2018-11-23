@@ -6,7 +6,6 @@ const Wrapper = styled.div`
   margin-bottom: 20px;
 
   @media (min-width: 1024px) {
-
     padding-left: 4px;
   }
 `;
@@ -15,7 +14,7 @@ const Quote = styled.blockquote`
   margin: 0px;
   margin-bottom: 8px;
   padding: 4px 8px;
-  border-left: 4px solid #bb9e00c2;
+  border-left: 4px solid ${({theme}) => theme.colors.primaryDark};
 `;
 
 const Cite = styled.cite``;

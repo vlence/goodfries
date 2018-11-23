@@ -6,6 +6,7 @@ import Blockquote from '../components/blockquote';
 import pageTitle from '../lib/page-title';
 import Credit from '../components/credit';
 import Page from '../components/page';
+import Section from '../components/section';
 
 export default () => (
   <Page>
@@ -13,9 +14,11 @@ export default () => (
       <title>{pageTitle('Perfect Potatoes')}</title>
     </Head>
 
-    <Blockquote cite="Pretty much everyone in their mind">
-      <Lead>Oh you just cut the potatoes and fry them.</Lead>
-    </Blockquote>
+    <Section>
+      <Blockquote cite="Pretty much everyone in their mind">
+        <Lead>Oh you just cut the potatoes and fry them.</Lead>
+      </Blockquote>
+    </Section>
 
     <h1>The Perfect Potato</h1>
 

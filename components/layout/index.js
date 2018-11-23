@@ -4,18 +4,17 @@ import Header from '../header';
 import Footer from '../footer';
 import MaxWidth from '../max-width';
 import GlobalStyles from '../global-styles';
+import Section from '../section';
 
 const Wrapper = styled.div``;
-
-const Main = styled.main`
-  padding-top: 8px;
-`;
 
 const Layout = ({children}) => (
   <Wrapper>
     <MaxWidth>
       <Header />
-      <Main>{children}</Main>
+      <Section>
+        <main>{children}</main>
+      </Section>
       <Footer />
     </MaxWidth>
 
