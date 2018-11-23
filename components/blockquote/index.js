@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import media from '../../lib/media';
 
 const Wrapper = styled.div`
   margin-bottom: 20px;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     padding-left: 4px;
-  }
+  `}
 `;
 
 const Quote = styled.blockquote`

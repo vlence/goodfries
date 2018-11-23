@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import media from '../../lib/media';
 
 const H1 = styled.h1`
   font-family: 'Pacifico', cursive;
@@ -7,9 +8,9 @@ const H1 = styled.h1`
   font-size: 44px;
   padding-top: 0.5em;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     font-size: 48px;
-  }
+  `}
 `;
 
 const Title = () => <H1>Good Fries 🍟</H1>;
