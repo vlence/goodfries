@@ -34,7 +34,7 @@ export default () => (
       There is more than meets the eye. Your potatoes must not be too wet or too dry.
     </p>
 
-    <ul>
+    <ol>
       <li>
         Concoct a weak brine solution: about 90g of salt dissolved in 1kg of water.
         Eliminate the potatoes that float in this solution. They're too wet.
@@ -46,7 +46,7 @@ export default () => (
         brine solution. Eliminate the potatoes that sink in this solution. They're
         too dry.
       </li>
-    </ul>
+    </ol>
 
     <p>You have successfully sorted all the potatoes. You now have. The. <b>ONE</b>(s).</p>
 
