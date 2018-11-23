@@ -1,6 +1,6 @@
 {
   "name": "goodfries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A site about making good French Fries.",
   "main": "pages/index.js",
   "scripts": {
