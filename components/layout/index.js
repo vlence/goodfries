@@ -2,20 +2,25 @@ import React from 'react';
 import styled from 'styled-components';
 import Header from '../header';
 import Footer from '../footer';
+import MaxWidth from '../max-width';
+import GlobalStyles from '../global-styles';
 
-const Div = styled.div`
-  padding: 0px 4px;
-  margin: auto;
-  width: 100%;
-  max-width: 1024px;
+const Wrapper = styled.div``;
+
+const Main = styled.main`
+  padding-top: 8px;
 `;
 
 const Layout = ({children}) => (
-  <Div>
-    <Header />
-    <main>{children}</main>
-    <Footer />
-  </Div>
+  <Wrapper>
+    <MaxWidth>
+      <Header />
+      <Main>{children}</Main>
+      <Footer />
+    </MaxWidth>
+
+    <GlobalStyles />
+  </Wrapper>
 );
 
 export default Layout;
