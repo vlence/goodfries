@@ -25,7 +25,10 @@
   "dependencies": {
     "next": "^7.0.2",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-typography": "^0.16.13",
+    "styled-components": "^4.1.1",
+    "typography": "^0.16.17"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
@@ -34,6 +37,7 @@
     "@storybook/addons": "^4.0.8",
     "@storybook/react": "^4.0.8",
     "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.8.0",
     "jest": "^23.6.0"
   }
 }

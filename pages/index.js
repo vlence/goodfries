@@ -1,8 +1,12 @@
 import React from 'react';
+import Head from 'next/head';
+import pageTitle from '../lib/page-title';
 
 export default () => (
-  <main style={{padding: '0px 8px'}}>
-    <h1>Good Fries 🍟</h1>
+  <React.Fragment>
+    <Head>
+      <title>{pageTitle('Instructions')}</title>
+    </Head>
 
     <ol style={{fontStyle: 'italic'}}>
       <li>Provision potatoes. Duh.</li>
@@ -16,9 +20,5 @@ export default () => (
       <li>Add seasoning. Salt and pepper for the faint hearted.</li>
       <li>Serve it up.</li>
     </ol>
-
-    <footer>
-      Made by <a href="https://about.me/vlence" target="_blank" rel="noreferrer noopener">Victor Basumatary</a>
-    </footer>
-  </main>
+  </React.Fragment>
 );
