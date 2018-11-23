@@ -1,7 +1,8 @@
 import React from 'react';
-import typography from '../lib/typography';
 import {ThemeProvider} from 'styled-components';
+
 import theme from '../lib/theme';
+import typography from '../lib/typography';
 
 const Decorator = Story => {
   typography.injectStyles();

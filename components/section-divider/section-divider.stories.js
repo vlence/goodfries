@@ -1,7 +1,8 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import SectionDivider from '.';
 import Decorator from '../../util/storybook-decorator';
+
+import SectionDivider from '.';
 
 storiesOf('SectionDivider', module)
   .addDecorator(Decorator)

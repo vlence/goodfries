@@ -1,6 +1,6 @@
-import Document, { Head, Main, NextScript } from 'next/document';
-import {TypographyStyle, GoogleFont} from 'react-typography';
 import {ServerStyleSheet} from 'styled-components';
+import {TypographyStyle, GoogleFont} from 'react-typography';
+import Document, { Head, Main, NextScript } from 'next/document';
 
 import typography from '../lib/typography';
 

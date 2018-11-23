@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import Header from '../header';
 import Footer from '../footer';
+import Section from '../section';
 import MaxWidth from '../max-width';
 import GlobalStyles from '../global-styles';
-import Section from '../section';
 import SectionDivider from '../section-divider';
 
 const Wrapper = styled.div``;

@@ -1,7 +1,8 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import Title from '.';
 import Decorator from '../../util/storybook-decorator';
+
+import Title from '.';
 
 storiesOf('Title', module)
   .addDecorator(Decorator)

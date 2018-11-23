@@ -1,12 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
-import LinkBlank from '../components/link-blank';
+
 import Lead from '../components/lead';
-import Blockquote from '../components/blockquote';
-import pageTitle from '../lib/page-title';
-import Credit from '../components/credit';
 import Page from '../components/page';
+import Credit from '../components/credit';
 import Section from '../components/section';
+import pageTitle from '../lib/page-title';
+import LinkBlank from '../components/link-blank';
+import Blockquote from '../components/blockquote';
 
 export default () => (
   <Page>
