@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Lead from '../components/lead';
 import Page from '../components/page';
@@ -52,7 +53,7 @@ export default () => (
       </li>
     </ol>
 
-    <p>You have successfully sorted all the potatoes. You now have. The. <b>ONE</b>(s).</p>
+    <p>You have successfully sorted all the potatoes. <Link prefetch href="/"><a>Now make some fries</a></Link>.</p>
 
     <Credit cite="https://www.chefsteps.com/activities/finding-perfect-french-fry-potatoes" />
   </Page>
